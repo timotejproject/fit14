@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Akademija - Jedilniki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: #5c4033;
+            color: #ffffff;
+            padding: 20px;
+            font-size: 24px;
+            position: relative;
+        }
+        .home-button {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            background-color: #ffffff;
+            color: #5c4033;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .home-button:hover {
+            background-color: #ddd;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        .menu-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .menus {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .menu {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition: transform 0.2s;
+        }
+        .menu img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu:hover {
+            transform: scale(1.05);
+        }
+        .menu a {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html" class="home-button">Domov</a> <!-- Home button -->
+    Fit Akademija - Jedilniki
+</div>
+
+<div class="container">
+    <p class="menu-title">V nadaljevanju najdeš jedilnik za Fit akademija 14.</p>
+    <div class="menus">
+        <div class="menu">
+            <img src="https://fit-akademija.si/wp-content/uploads/2023/12/FA14-JEDILNIK-1.-in-2.-teden.png" alt="Jedilnik 1">
+            <a href="https://fit-akademija.si/wp-content/uploads/2024/09/FA14-JEDILNIK-1.-in-2.-teden.pdf" target="_blank">Jedilnik 1. Teden & 2. Teden</a>
+        </div>
+        <div class="menu">
+            <img src="https://fit-akademija.si/wp-content/uploads/2023/12/FA14-JEDILNIK-3.-in-4.-teden.png" alt="Jedilnik 2">
+            <a href="https://fit-akademija.si/wp-content/uploads/2024/10/FA14-JEDILNIK-3.-in-4.-teden.pdf" target="_blank">Jedilnik 3. Teden & 4. Teden</a>
+        </div>
+        <div class="menu">
+            <img src="https://fit-akademija.si/wp-content/uploads/2024/10/FA14-JEDILNIK-5.-in-6.-teden.png" alt="Jedilnik 3">
+            <a href="https://fit-akademija.si/wp-content/uploads/2024/10/FA14-JEDILNIK-5.-in-6.-teden.pdf" target="_blank">Jedilnik 5. Teden & 6. Teden</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
